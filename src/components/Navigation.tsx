@@ -5,7 +5,7 @@ import styles from './Navigation.module.css';
 const Navigation: React.FC = () => {
   return (
     <header className={styles.header}>
-      <h1>App title</h1>
+      <h1>Harness Base</h1>
       <nav>
         <ul>
           <Link to="/">Auth</Link>

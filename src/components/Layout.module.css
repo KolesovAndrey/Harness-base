@@ -1,4 +1,3 @@
-.main {
-  width: 1200px;
-  margin: 0 auto;
+.page {
+  @apply flex flex-col min-h-[100vh] overflow-hidden;
 }

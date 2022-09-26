@@ -14,7 +14,7 @@ const AuthForm: React.FC = () => {
         <input id="password" type="password" placeholder="Min length 10" />
       </div>
 
-      <Button title="Submit" type="button" className={styles.btn} />
+      <Button title="Login" type="button" className={styles['submit-button']} />
     </form>
   );
 };

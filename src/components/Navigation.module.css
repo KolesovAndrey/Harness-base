@@ -1,14 +1,15 @@
 .header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  @apply bg-emerald-600 py-5 px-[5%] text-white font-semibold flex items-center justify-between;
+}
 
-  background-color: #ccc;
-  padding: 10px 10%;
-  margin-bottom: 40px;
+.header h1 {
+  @apply text-[24px];
 }
 
 .header ul {
-  display: flex;
-  gap: 10px;
+  @apply flex gap-3;
+}
+
+.header a {
+  @apply hover:text-emerald-200 transition-colors duration-300;
 }
