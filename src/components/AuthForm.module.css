@@ -1,0 +1,30 @@
+.auth-form {
+  padding: 20px;
+  margin: 0 auto;
+  width: 400px;
+
+  background-color: #ccc;
+}
+
+.auth-form p {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.form-control {
+  margin-bottom: 10px;
+}
+
+.form-control label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-control input {
+  padding: 10px;
+  width: 100%;
+
+  border: none;
+  border-radius: 5px;
+}
