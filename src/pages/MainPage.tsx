@@ -1,10 +1,9 @@
-import { Outlet } from 'react-router-dom';
+import styles from './MainPage.module.css';
 
 const MainPage: React.FC = () => {
   return (
-    <div>
+    <div className={styles['main-page']}>
       <h1>Main Page</h1>
-      <Outlet />
     </div>
   );
 };

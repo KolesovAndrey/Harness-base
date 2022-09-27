@@ -1,0 +1,3 @@
+.main-page {
+  @apply w-[800px] my-0 mx-auto p-5 font-semibold bg-slate-300 shadow-sm rounded-b-md;
+}

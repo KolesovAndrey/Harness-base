@@ -4,8 +4,8 @@ import './App.css';
 import AboutPage from './pages/AboutPage';
 import AuthPage from './pages/AuthPage';
 import MainPage from './pages/MainPage';
-import ProductPage from './pages/ProductPage';
-import Layout from './components/Layout';
+import ProductPage from './pages/ProductsPage';
+import Layout from './components/Layout/Layout';
 
 const App: React.FC = () => {
   return (
@@ -13,9 +13,8 @@ const App: React.FC = () => {
       <Layout>
         <Routes>
           <Route path="/" element={<AuthPage />} />
-          <Route path="main" element={<MainPage />}>
-            <Route path="product" element={<ProductPage />} />
-          </Route>
+          <Route path="main" element={<MainPage />} />
+          <Route path="products" element={<ProductPage />} />
           <Route path="about" element={<AboutPage />} />
         </Routes>
       </Layout>
